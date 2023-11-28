@@ -2,7 +2,7 @@ import IsolatedVM from "isolated-vm";
 import Express from "express";
 
 
-const isolate = new IsolatedVM.Isolate({ memoryLimit: 8 });
+const isolate = new IsolatedVM.Isolate({ memoryLimit: 128 });
 const app = Express();
 app.use(Express.json());
 
