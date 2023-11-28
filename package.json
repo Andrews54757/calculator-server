@@ -1,0 +1,15 @@
+{
+  "name": "calculator-server",
+  "version": "1.0.0",
+  "description": "A simple API server that does small calculations and returns the result.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "author": "Andrews54757",
+  "license": "Unlicense",
+  "dependencies": {
+    "express": "^4.18.2",
+    "isolated-vm": "^4.6.0"
+  }
+}
