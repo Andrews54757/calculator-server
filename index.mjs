@@ -69,7 +69,7 @@ app.post("/eval", async (req, res) => {
 
     try {
         result = await script.run(context, {
-            timeout: 50,
+            timeout: 500,
             release: true,
         });
     } catch (e) {
